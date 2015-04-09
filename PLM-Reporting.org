@@ -1,5 +1,6 @@
 * Journal
 ** <2015-04-07>
 *** Done
+**** Visualisation du cours sur AngularJS
 *** Questions
 *** Planned
