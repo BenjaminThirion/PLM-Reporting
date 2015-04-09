@@ -4,3 +4,7 @@
 **** Visualisation du cours sur AngularJS
 *** Questions
 *** Planned
+** <2015-04-08>
+*** Done
+*** Questions
+*** Planned
