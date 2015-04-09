@@ -1,17 +1,4 @@
 * Journal
-** <2015-04-07>
-*** Done
-**** Visualisation du cours Code School sur AngularJS
-*** Questions
-*** Planned
-** <2015-04-08>
-*** Done
-**** Installation des outils de travail
-**** Installation du play framework pour lancer webPLM en local
-**** Etude du fonctionnement et du code de webPLM et PLM
-**** Etude du fonctionnement de l'editeur actuel de PLM
-*** Questions
-*** Planned
 ** <2015-04-09>
 *** Done
 **** Fork de PLM et webPLM
@@ -23,3 +10,17 @@
 **** Comment créer un monde vide au chargement de l'éditeur
 *** Planned
 **** Afficher un monde vide au chargement de l'éditeur
+** <2015-04-08>
+*** Done
+**** Installation des outils de travail
+**** Installation du play framework pour lancer webPLM en local
+**** Etude du fonctionnement et du code de webPLM et PLM
+**** Etude du fonctionnement de l'editeur actuel de PLM
+*** Questions
+*** Planned
+** <2015-04-07>
+*** Done
+**** Visualisation du cours Code School sur AngularJS
+*** Questions
+*** Planned
+
