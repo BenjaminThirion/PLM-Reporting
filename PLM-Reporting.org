@@ -1,35 +1,35 @@
 * Journal
 ** <2015-04-10>
 *** Done
-**** Méthode pour créer un monde vide dans le modèle buggleworld de webPLM
-**** Affichage d'un monde vide au lancement de l'éditeur webPLM
-***** Création de la directive AngularJS world-edition
-**** Essais de dessins et de détections d'événements sur élément <canvas>
+- Méthode pour créer un monde vide dans le modèle buggleworld de webPLM
+- Affichage d'un monde vide au lancement de l'éditeur webPLM
+  - Création de la directive AngularJS world-edition
+- Essais de dessins et de détections d'événements sur élément <canvas>
 *** Questions
 *** Planned
-**** Détecter les coordonnées du click pour sélectionner une cellule
+- Détecter les coordonnées du click pour sélectionner une cellule
 ** <2015-04-09>
 *** Done
-**** Fork de PLM et webPLM
-**** Etude plus en détail de la partie exercice de  webPLM et du code de l'editeur actuel de PLM
-**** Lecture des bonnes pratiques AngularJS utilisées pour webPLM (https://github.com/johnpapa/angular-styleguide)
-**** Lecture d'un tutoriel sur l'élément HTML <canvas> utilisé pour dessiner le monde
-**** Création du controleur et de la vue Editor pour débuter le code
+- Fork de PLM et webPLM
+- Etude plus en détail de la partie exercice de  webPLM et du code de l'editeur actuel de PLM
+- Lecture des bonnes pratiques AngularJS utilisées pour webPLM (https://github.com/johnpapa/angular-styleguide)
+- Lecture d'un tutoriel sur l'élément HTML <canvas> utilisé pour dessiner le monde
+- Création du controleur et de la vue Editor pour débuter le code
 *** Questions
-**** Comment créer un monde vide au chargement de l'éditeur
+- Comment créer un monde vide au chargement de l'éditeur
 *** Planned
-**** Afficher un monde vide au chargement de l'éditeur
+- Afficher un monde vide au chargement de l'éditeur
 ** <2015-04-08>
 *** Done
-**** Installation des outils de travail
-**** Installation du play framework pour lancer webPLM en local
-**** Etude du fonctionnement et du code de webPLM et PLM
-**** Etude du fonctionnement de l'editeur actuel de PLM
+- Installation des outils de travail
+- Installation du play framework pour lancer webPLM en local
+- Etude du fonctionnement et du code de webPLM et PLM
+- Etude du fonctionnement de l'editeur actuel de PLM
 *** Questions
 *** Planned
 ** <2015-04-07>
 *** Done
-**** Visualisation du cours Code School sur AngularJS
+- Visualisation du cours Code School sur AngularJS
 *** Questions
 *** Planned
 
