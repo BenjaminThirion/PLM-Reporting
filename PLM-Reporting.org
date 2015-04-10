@@ -1,4 +1,13 @@
 * Journal
+** <2015-04-10>
+*** Done
+**** Méthode pour créer un monde vide dans le modèle buggleworld de webPLM
+**** Affichage d'un monde vide au lancement de l'éditeur webPLM
+***** Création de la directive AngularJS world-edition
+**** Essais de dessins et de détections d'événements sur élément <canvas>
+*** Questions
+*** Planned
+**** Détecter les coordonnées du click pour sélectionner une cellule
 ** <2015-04-09>
 *** Done
 **** Fork de PLM et webPLM
