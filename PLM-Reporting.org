@@ -1,4 +1,15 @@
 * Journal
+** <2015-04-13>
+*** Done
+- Détection de la case sur laquelle on clique
+- Ajout d'un attribut aux cellules permettant de savoir si elles sont sélectionnées
+- Boutons d'ajout des murs et des baggles.
+  - Création de la directive AngularJS world-edition-commands
+- Début de l'ajout des buggles.
+*** Questions
+*** Planned
+- Autres boutons d'ajout d'élements dans le monde
+- Boutons de suppression de lignes et colonnes
 ** <2015-04-10>
 *** Done
 - Méthode pour créer un monde vide dans le modèle buggleworld de webPLM
