@@ -1,4 +1,15 @@
 * Journal
+** <2015-04-14>
+*** Done
+- Tableau pour afficher les propriétés du monde
+- Bouton d'ajout de Buggles
+- Bouton de suppression de Buggles
+- Fenetre pour choisir une custom color (r/g/b) et coloriage des cases avec cette couleur
+*** Questions
+*** Planned
+- Ajout d'une couleur par son nom
+- Autres boutons d'ajout d'éléments dans le monde
+- Boutons de suppression de lignes et colonnes 
 ** <2015-04-13>
 *** Done
 - Détection de la case sur laquelle on clique
