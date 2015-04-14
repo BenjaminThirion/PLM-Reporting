@@ -2,7 +2,7 @@
 ** <2015-04-14>
 *** Done
 - Tableau pour afficher les propriétés du monde
-  - Directive AngularJS word-edition-properties
+  - Directive AngularJS world-edition-properties
 - Bouton d'ajout de Buggles
 - Bouton de suppression de Buggles
 - Fenetre pour choisir une custom color (r/g/b) et coloriage des cases avec cette couleur
