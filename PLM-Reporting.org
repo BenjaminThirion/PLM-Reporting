@@ -1,4 +1,13 @@
 * Journal
+** <2015-04-15>
+*** Done
+- Ajout d'une couleur par son nom
+  - Création du service color pour les conversions noms / rgb
+- Ajout du bouton d'ajout de messages dans les cellules
+*** Questions
+*** Planned
+- Boutons de suppression de lignes et colonnes
+- Pouvoir éditer les propriétés du monde dans le tableau des propriétés
 ** <2015-04-14>
 *** Done
 - Tableau pour afficher les propriétés du monde
