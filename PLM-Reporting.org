@@ -1,4 +1,12 @@
 * Journal
+** <2015-04-16>
+*** Done
+- Début des boutons de suppression et d'ajout de lignes et de  colonnes
+  - Méthode de suppression d'une ligne dans buggleworld
+  - Correction inversion ligne / colonne dans la méthode de création d'un monde vide
+*** Planned
+- Terminer les boutons de suppression de lignes et colonnes
+- Pouvoir éditer les propriétés du monde dans le tableau des propriétés
 ** <2015-04-15>
 *** Done
 - Ajout d'une couleur par son nom
