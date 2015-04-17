@@ -1,4 +1,15 @@
 * Journal
+** <2015-04-17>
+*** Done
+- Boutons d'ajout et de suppression de lignes et de colonnes
+  - Boutons pour supprimer une ligne ou une colonne sélectionnée
+  - Bouton pour ajouter une colonne à gauche ou à droite de celle sélectionnée
+  - Bouton pour ajouter un ligne au dessus ou en dessous de celle sélectionnée
+  - Méthodes d'ajout et de suppression dans buggleworld
+*** Planned
+- Pouvoir éditer les propriétés du monde dans le tableau des propriétés
+  - Utiliser l'élément <input> plutot que l'attribut contenteditable
+- Améliorer l'affichage des boutons des commandes
 ** <2015-04-16>
 *** Done
 - Début des boutons de suppression et d'ajout de lignes et de  colonnes
