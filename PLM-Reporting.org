@@ -1,4 +1,12 @@
 * Journal
+** <2015-04-20>
+*** Done
+- Possibilité de modifier la largeur du monde en éditant le tableau des propriétés
+  - Utilisation des getter/setters avec ngModel
+  - Création d'une méthode de buggleworld qui ajoute ou retire un certain nombre de colonnes
+*** Questions
+*** Planned
+- Possibilité de modifier les autres propriétés du monde
 ** <2015-04-17>
 *** Done
 - Boutons d'ajout et de suppression de lignes et de colonnes
