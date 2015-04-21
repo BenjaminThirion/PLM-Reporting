@@ -1,4 +1,19 @@
 * Journal
+** <2015-04-21>
+*** Done
+- Possibilité de modifier la hauteur du monde en éditant le tableau des propriétés
+  - Création d'une méthode de buggleworld qui ajoute ou retire un certain nombre de colonnes
+- Possibilité de modifier les propriétés de la cellule sélectionnée dans le tableau des propriétés
+  - Checkbox pour mettre/enlever murs ou baggle
+- Possibilité de modifier les propriétés du buggle sélectionné dans le tableau des propriétés
+  - Modifier le nom, la direction (liste déroulante), et la couleur (liste déroulante)
+*** Questions
+*** Planned
+- Corriger les erreurs "editor.selectedBuggle" is null quand aucun Buggle n'est sélectionné
+- Corriger l'erreur "editor.world is null" au démarrage de l'éditeur
+- Pouvoir choisir une couleur personnalisée pour un Buggle
+- Afficher et pouvoir éditer la couleur et le texte d'une cellule dans le tableau des propriétés
+- Commencer à refléchir sur l'éditeur de missions
 ** <2015-04-20>
 *** Done
 - Possibilité de modifier la largeur du monde en éditant le tableau des propriétés
