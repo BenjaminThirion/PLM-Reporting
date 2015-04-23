@@ -1,4 +1,17 @@
 * Journal
+** <2015-04-23>
+*** Done
+- Début de l'éditeur de missions
+  - Menu déroulant pour passer de l'édition du monde à celui de la mission et inversement
+  - Envoie du texte entré par l'utilisateur au serveur
+  - Retour du texte filtré par le serveur, en mode tous les langages
+- Début de réflexion sur la sauvegarde
+*** Questions
+*** Planned
+- Afficher la mission selon les langages sélectionnés
+- Afficher des indications et/ou un texte par défaut dans l'éditeur de missions  pour aider l'utilisateur
+- Débuter l'éditeur de solution
+- Réfléchir sur la sauvegarde
 ** <2015-04-22>
 *** Done
 - Correction d'un bug si on renomme buggle1 en buggle2 avant de créer un nouveau Buggle
