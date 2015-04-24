@@ -6,54 +6,73 @@
 - Début de l'éditeur de solution
 *** Questions
 *** Planned
-- Afficher des indications et/ou un texte par défaut dans l'éditeur de missions  pour aider l'utilisateur
+- Afficher des indications et/ou un texte par défaut dans l'éditeur de
+  missions pour aider l'utilisateur
 ** <2015-04-23>
 *** Done
 - Début de l'éditeur de missions
-  - Menu déroulant pour passer de l'édition du monde à celui de la mission et inversement
+  - Menu déroulant pour passer de l'édition du monde à celui de la
+    mission et inversement
   - Envoie du texte entré par l'utilisateur au serveur
   - Retour du texte filtré par le serveur, en mode tous les langages
 - Début de réflexion sur la sauvegarde
 *** Questions
 *** Planned
 - Afficher la mission selon les langages sélectionnés
-- Afficher des indications et/ou un texte par défaut dans l'éditeur de missions  pour aider l'utilisateur
+- Afficher des indications et/ou un texte par défaut dans l'éditeur de
+  missions pour aider l'utilisateur
 - Débuter l'éditeur de solution
 - Réfléchir sur la sauvegarde
 ** <2015-04-22>
 *** Done
-- Correction d'un bug si on renomme buggle1 en buggle2 avant de créer un nouveau Buggle
-- Correction de l'erreur "editor.selectedBuggle is null" et "editor.world is null"
-- Affichage et édition du texte d'une cellule dans le tableau des propriétés
-  - Suppression de la méthode setText et de l'attribut setTextInput pour utiliser une méthode getter/setter
+- Correction d'un bug si on renomme buggle1 en buggle2 avant de créer
+  un nouveau Buggle
+- Correction de l'erreur "editor.selectedBuggle is null" et
+  "editor.world is null"
+- Affichage et édition du texte d'une cellule dans le tableau des
+  propriétés
+  - Suppression de la méthode setText et de l'attribut setTextInput
+    pour utiliser une méthode getter/setter
 - Edition de la couleur d'un Buggle dans le tableau des propriétés
-  - Choix entre les couleurs proposées et une couleur r/g/b personnalisée
-  - Ajout de conversions dans le service color pour les couleurs personnalisées
-- Edition de la couleur de la cellule sélectionnée dans le tableau des propriétés
+  - Choix entre les couleurs proposées et une couleur r/g/b
+    personnalisée
+  - Ajout de conversions dans le service color pour les couleurs
+    personnalisées
+- Edition de la couleur de la cellule sélectionnée dans le tableau des
+  propriétés
 - Edition du nom du monde dans le tableau des propriétés
 *** Questions
 *** Planned
 - Commencer à réfléchir sur l'éditeur d'exercices
 ** <2015-04-21>
 *** Done
-- Possibilité de modifier la hauteur du monde en éditant le tableau des propriétés
-  - Création d'une méthode de buggleworld qui ajoute ou retire un certain nombre de colonnes
-- Possibilité de modifier les propriétés de la cellule sélectionnée dans le tableau des propriétés
+- Possibilité de modifier la hauteur du monde en éditant le tableau
+  des propriétés
+  - Création d'une méthode de buggleworld qui ajoute ou retire un
+    certain nombre de colonnes
+- Possibilité de modifier les propriétés de la cellule sélectionnée
+  dans le tableau des propriétés
   - Checkbox pour mettre/enlever murs ou baggle
-- Possibilité de modifier les propriétés du buggle sélectionné dans le tableau des propriétés
-  - Modifier le nom, la direction (liste déroulante), et la couleur (liste déroulante)
+- Possibilité de modifier les propriétés du buggle sélectionné dans le
+  tableau des propriétés
+  - Modifier le nom, la direction (liste déroulante), et la couleur
+    (liste déroulante)
 *** Questions
 *** Planned
-- Corriger les erreurs "editor.selectedBuggle is null" quand aucun Buggle n'est sélectionné
+- Corriger les erreurs "editor.selectedBuggle is null" quand aucun
+  Buggle n'est sélectionné
 - Corriger l'erreur "editor.world is null" au démarrage de l'éditeur
 - Pouvoir choisir une couleur personnalisée pour un Buggle
-- Afficher et pouvoir éditer la couleur et le texte d'une cellule dans le tableau des propriétés
+- Afficher et pouvoir éditer la couleur et le texte d'une cellule dans
+  le tableau des propriétés
 - Commencer à réfléchir sur l'éditeur de missions
 ** <2015-04-20>
 *** Done
-- Possibilité de modifier la largeur du monde en éditant le tableau des propriétés
+- Possibilité de modifier la largeur du monde en éditant le tableau
+  des propriétés
   - Utilisation des getter/setters avec ngModel
-  - Création d'une méthode de buggleworld qui ajoute ou retire un certain nombre de colonnes
+  - Création d'une méthode de buggleworld qui ajoute ou retire un
+    certain nombre de colonnes
 *** Questions
 *** Planned
 - Possibilité de modifier les autres propriétés du monde
