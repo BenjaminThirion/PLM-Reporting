@@ -1,4 +1,12 @@
 * Journal
+** <2015-04-24>
+*** Done
+- Editeur de mission
+  - Affichage de la mission selon les langages sélectionnés
+- Début de l'éditeur de solution
+*** Questions
+*** Planned
+- Afficher des indications et/ou un texte par défaut dans l'éditeur de missions  pour aider l'utilisateur
 ** <2015-04-23>
 *** Done
 - Début de l'éditeur de missions
