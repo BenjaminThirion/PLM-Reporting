@@ -1,23 +1,30 @@
 * Introduction
-[[http://www.loria.fr/~quinson/Teaching/PLM/][PLM]] est un logiciel permettant l'apprentissage de la programmation à travers différents exercices. 
-Les exercices se constituent de mondes graphiques, eux-mêmes constitués d'entités avec lesquelles 
-l'élève doit interagir en lignes de code, afin d'arriver à une solution qui correspond à une certaine 
-configuration du monde.
+[[http://www.loria.fr/~quinson/Teaching/PLM/][PLM]] est un logiciel permettant l'apprentissage de la programmation à
+travers différents exercices.  Les exercices se constituent de mondes
+graphiques, eux-mêmes constitués d'entités avec lesquelles l'élève
+doit interagir en lignes de code, afin d'arriver à une solution qui
+correspond à une certaine configuration du monde.
 
-Il devrait être possible de créer de nouveaux exercices pour PLM de manière simple et intuitive. 
-Cela nécessite un éditeur qui doit permettre la création du monde, de la mission et du code solution 
-d'un nouvel exercice.
+Il devrait être possible de créer de nouveaux exercices pour PLM de
+manière simple et intuitive.  Cela nécessite un éditeur qui doit
+permettre la création du monde, de la mission et du code solution d'un
+nouvel exercice.
 
-PLM passant du client lourd en Java actuel à un client web, mon objectif est de concevoir et réaliser 
-un éditeur d'exercices pour la nouvelle version de PLM. Un tel éditeur doit permettre de créer les 
-nouveaux exercices avec leur monde, leur mission et leur code solution. Cela comprend tout d'abord 
-la création du monde. Par exemple, il existe des mondes de type BuggleWorld, constitués d'une grille 
-pour laquelle on doit pouvoir éditer les cellules (changer la couleur, ajouter un message...) et y placer 
-des murs, des objets, ou des entités (les Buggles). Ensuite, la création de la mission, où l'on doit 
-pouvoir écrire les consignes de l'exercice en HTML. Des balises personnalisées permettent d'écrire et
-d'afficher la mission selon différents langages de programmation. Enfin, la création de la solution où 
-l'on doit pouvoir écrire le code solution, avec une partie définie qui sera affichée à l'élève et 
-une autre qu'il devra écrire de lui-même.
+PLM passant du client lourd en Java actuel à un client web, mon
+objectif est de concevoir et réaliser un éditeur d'exercices pour la
+nouvelle version de PLM. Un tel éditeur doit permettre de créer les
+nouveaux exercices avec leur monde, leur mission et leur code
+solution. Cela comprend tout d'abord la création du monde. Par
+exemple, il existe des mondes de type BuggleWorld, constitués d'une
+grille pour laquelle on doit pouvoir éditer les cellules (changer la
+couleur, ajouter un message...) et y placer des murs, des objets, ou
+des entités (les Buggles). Ensuite, la création de la mission, où l'on
+doit pouvoir écrire les consignes de l'exercice en HTML. Des balises
+personnalisées permettent d'écrire et d'afficher la mission selon
+différents langages de programmation. Enfin, la création de la
+solution où l'on doit pouvoir écrire le code solution, avec une partie
+définie qui sera affichée à l'élève et une autre qu'il devra écrire de
+lui-même.
 
 * Technical setup
 1. [[https://www.playframework.com/documentation/2.3.x/Installing][Installer le Play Framework]]
