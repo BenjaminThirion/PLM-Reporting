@@ -38,6 +38,9 @@ une autre qu'il devra écrire de lui-même.
 - Amélioration de l'affichage des boutons
   - Regroupement des boutons liés
   - Boutons dont la commande est actuellement active dans une autre couleur
+*** Questions
+*** Planned [0/1]
+- [ ] Editeur de solutions
 ** <2015-04-24>
 *** Done
 - Editeur de mission
