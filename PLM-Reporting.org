@@ -1,13 +1,50 @@
+* Introduction
+[[http://www.loria.fr/~quinson/Teaching/PLM/][PLM]] est un logiciel permettant l'apprentissage de la programmation à travers différents exercices. 
+Les exercices se constituent de mondes graphiques, eux-mêmes constitués d'entités avec lesquelles 
+l'élève doit interagir en lignes de code, afin d'arriver à une solution qui correspond à une certaine 
+configuration du monde.
+
+Il devrait être possible de créer de nouveaux exercices pour PLM de manière simple et intuitive. 
+Cela nécessite un éditeur qui doit permettre la création du monde, de la mission et du code solution 
+d'un nouvel exercice.
+
+PLM passant du client lourd en Java actuel à un client web, mon objectif est de concevoir et réaliser 
+un éditeur d'exercices pour la nouvelle version de PLM. Un tel éditeur doit permettre de créer les 
+nouveaux exercices avec leur monde, leur mission et leur code solution. Cela comprend tout d'abord 
+la création du monde. Par exemple, il existe des mondes de type BuggleWorld, constitués d'une grille 
+pour laquelle on doit pouvoir éditer les cellules (changer la couleur, ajouter un message...) et y placer 
+des murs, des objets, ou des entités (les Buggles). Ensuite, la création de la mission, où l'on doit 
+pouvoir écrire les consignes de l'exercice en HTML. Des balises personnalisées permettent d'écrire et
+d'afficher la mission selon différents langages de programmation. Enfin, la création de la solution où 
+l'on doit pouvoir écrire le code solution, avec une partie définie qui sera affichée à l'élève et 
+une autre qu'il devra écrire de lui-même.
+
+* Technical setup
+1. [[https://www.playframework.com/documentation/2.3.x/Installing][Installer le Play Framework]]
+2. Cloner le dépôt [[https://github.com/BenjaminThirion/webPLM][webPLM]]
+  1. git clone https://github.com/BenjaminThirion/webPLM.git
+3. Lancer l'application
+  1. cd path/to/webPLM
+  2. activator start
+  3. Accéder à http://localhost:9000
+
 * Journal
+** <2015-04-27>
+*** Done
+- Amélioration de la gestion des couleurs
+  - Affichage des couleurs prédéfinies dans un bouton type "dropdown"
+  - Un lien de la liste ouvre une nouvelle fenêtre pour entrer une valeur personnalisée
+  - Un autre lien de la liste met en mode "pipette" pour sélectionner la couleur d'une cellule
+- Amélioration de l'affichage des boutons
+  - Regroupement des boutons liés
+  - Boutons dont la commande est actuellement active dans une autre couleur
 ** <2015-04-24>
 *** Done
 - Editeur de mission
   - Affichage de la mission selon les langages sélectionnés
 - Début de l'éditeur de solution
 *** Questions
-*** Planned
-- Afficher des indications et/ou un texte par défaut dans l'éditeur de
-  missions pour aider l'utilisateur
+*** Planned [0/0]
 ** <2015-04-23>
 *** Done
 - Début de l'éditeur de missions
@@ -17,12 +54,12 @@
   - Retour du texte filtré par le serveur, en mode tous les langages
 - Début de réflexion sur la sauvegarde
 *** Questions
-*** Planned
-- Afficher la mission selon les langages sélectionnés
-- Afficher des indications et/ou un texte par défaut dans l'éditeur de
+*** Planned [2/4]
+- [X] Afficher la mission selon les langages sélectionnés
+- [ ] Afficher des indications et/ou un texte par défaut dans l'éditeur de
   missions pour aider l'utilisateur
-- Débuter l'éditeur de solution
-- Réfléchir sur la sauvegarde
+- [X] Débuter l'éditeur de solution
+- [ ] Réfléchir sur la sauvegarde
 ** <2015-04-22>
 *** Done
 - Correction d'un bug si on renomme buggle1 en buggle2 avant de créer
@@ -42,8 +79,7 @@
   propriétés
 - Edition du nom du monde dans le tableau des propriétés
 *** Questions
-*** Planned
-- Commencer à réfléchir sur l'éditeur d'exercices
+*** Planned [0/0]
 ** <2015-04-21>
 *** Done
 - Possibilité de modifier la hauteur du monde en éditant le tableau
@@ -58,14 +94,14 @@
   - Modifier le nom, la direction (liste déroulante), et la couleur
     (liste déroulante)
 *** Questions
-*** Planned
-- Corriger les erreurs "editor.selectedBuggle is null" quand aucun
+*** Planned [5/5]
+- [X] Corriger les erreurs "editor.selectedBuggle is null" quand aucun
   Buggle n'est sélectionné
-- Corriger l'erreur "editor.world is null" au démarrage de l'éditeur
-- Pouvoir choisir une couleur personnalisée pour un Buggle
-- Afficher et pouvoir éditer la couleur et le texte d'une cellule dans
+- [X] Corriger l'erreur "editor.world is null" au démarrage de l'éditeur
+- [X] Pouvoir choisir une couleur personnalisée pour un Buggle
+- [X] Afficher et pouvoir éditer la couleur et le texte d'une cellule dans
   le tableau des propriétés
-- Commencer à réfléchir sur l'éditeur de missions
+- [X] Commencer à réfléchir sur l'éditeur de missions
 ** <2015-04-20>
 *** Done
 - Possibilité de modifier la largeur du monde en éditant le tableau
@@ -74,8 +110,8 @@
   - Création d'une méthode de buggleworld qui ajoute ou retire un
     certain nombre de colonnes
 *** Questions
-*** Planned
-- Possibilité de modifier les autres propriétés du monde
+*** Planned [1/1]
+- [X] Possibilité de modifier les autres propriétés du monde
 ** <2015-04-17>
 *** Done
 - Boutons d'ajout et de suppression de lignes et de colonnes
@@ -83,27 +119,23 @@
   - Bouton pour ajouter une colonne à gauche ou à droite de celle sélectionnée
   - Bouton pour ajouter un ligne au dessus ou en dessous de celle sélectionnée
   - Méthodes d'ajout et de suppression dans buggleworld
-*** Planned
-- Pouvoir éditer les propriétés du monde dans le tableau des propriétés
-  - Utiliser l'élément <input> plutot que l'attribut contenteditable
-- Améliorer l'affichage des boutons des commandes
+*** Planned [1/1]
+- [X] Améliorer l'affichage des boutons des commandes
 ** <2015-04-16>
 *** Done
 - Début des boutons de suppression et d'ajout de lignes et de  colonnes
   - Méthode de suppression d'une ligne dans buggleworld
   - Correction inversion ligne / colonne dans la méthode de création d'un monde vide
-*** Planned
-- Terminer les boutons de suppression de lignes et colonnes
-- Pouvoir éditer les propriétés du monde dans le tableau des propriétés
+*** Planned [1/1]
+- [X] Terminer les boutons de suppression de lignes et colonnes
 ** <2015-04-15>
 *** Done
 - Ajout d'une couleur par son nom
   - Création du service color pour les conversions noms / rgb
 - Ajout du bouton d'ajout de messages dans les cellules
 *** Questions
-*** Planned
-- Boutons de suppression de lignes et colonnes
-- Pouvoir éditer les propriétés du monde dans le tableau des propriétés
+*** Planned [1/1]
+- [X] Pouvoir éditer les propriétés du monde dans le tableau des propriétés
 ** <2015-04-14>
 *** Done
 - Tableau pour afficher les propriétés du monde
@@ -112,10 +144,8 @@
 - Bouton de suppression de Buggles
 - Fenetre pour choisir une custom color (r/g/b) et coloriage des cases avec cette couleur
 *** Questions
-*** Planned
-- Ajout d'une couleur par son nom
-- Autres boutons d'ajout d'éléments dans le monde
-- Boutons de suppression de lignes et colonnes 
+*** Planned [1/1]
+- [X] Ajout d'une couleur par son nom
 ** <2015-04-13>
 *** Done
 - Détection de la case sur laquelle on clique
@@ -124,9 +154,9 @@
   - Création de la directive AngularJS world-edition-commands
 - Début de l'ajout des buggles.
 *** Questions
-*** Planned
-- Autres boutons d'ajout d'élements dans le monde
-- Boutons de suppression de lignes et colonnes
+*** Planned [2/2]
+- [X] Autres boutons d'ajout d'élements dans le monde
+- [X] Boutons de suppression de lignes et colonnes
 ** <2015-04-10>
 *** Done
 - Méthode pour créer un monde vide dans le modèle buggleworld de webPLM
@@ -134,8 +164,8 @@
   - Création de la directive AngularJS world-edition
 - Essais de dessins et de détections d'événements sur élément <canvas>
 *** Questions
-*** Planned
-- Détecter les coordonnées du click pour sélectionner une cellule
+*** Planned [1/1]
+- [X] Détecter les coordonnées du click pour sélectionner une cellule
 ** <2015-04-09>
 *** Done
 - Fork de PLM et webPLM
@@ -145,8 +175,8 @@
 - Création du controleur et de la vue Editor pour débuter le code
 *** Questions
 - Comment créer un monde vide au chargement de l'éditeur
-*** Planned
-- Afficher un monde vide au chargement de l'éditeur
+*** Planned [1/1]
+- [X] Afficher un monde vide au chargement de l'éditeur
 ** <2015-04-08>
 *** Done
 - Installation des outils de travail
@@ -154,10 +184,10 @@
 - Etude du fonctionnement et du code de webPLM et PLM
 - Etude du fonctionnement de l'editeur actuel de PLM
 *** Questions
-*** Planned
+*** Planned [0/0]
 ** <2015-04-07>
 *** Done
 - Visualisation du cours Code School sur AngularJS
 *** Questions
-*** Planned
+*** Planned [0/0]
 
