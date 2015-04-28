@@ -27,6 +27,8 @@ solution où l'on doit pouvoir écrire le code solution, avec une partie
 définie qui sera affichée à l'élève et une autre qu'il devra écrire de
 lui-même.
 
+[[http://webloria.loria.fr/~quinson/Research/Publications/2015-itiCSE-plm.pdf][Voici un article pour des informations plus générales sur PLM]]
+
 * Technical setup
 1. [[https://www.playframework.com/documentation/2.3.x/Installing][Installer le Play Framework]]
 2. Cloner le dépôt [[https://github.com/BenjaminThirion/webPLM][webPLM]]
