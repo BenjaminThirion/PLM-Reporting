@@ -18,7 +18,8 @@ solution. Cela comprend tout d'abord la création du monde. Par
 exemple, il existe des mondes de type BuggleWorld, constitués d'une
 grille pour laquelle on doit pouvoir éditer les cellules (changer la
 couleur, ajouter un message...) et y placer des murs, des objets, ou
-des entités (les Buggles). Ensuite, la création de la mission, où l'on
+des entités (les Buggles). Mais il existe d'autres mondes comme des 
+mondes de tri. Ensuite, la création de la mission, où l'on
 doit pouvoir écrire les consignes de l'exercice en HTML. Des balises
 personnalisées permettent d'écrire et d'afficher la mission selon
 différents langages de programmation. Enfin, la création de la
@@ -34,8 +35,16 @@ lui-même.
   1. cd path/to/webPLM
   2. activator start
   3. Accéder à http://localhost:9000
+  4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-04-28>
+*** Done
+- Affichage de la couleur actuellement choisie pour la commande coloriage de cellules
+- Etude du fonctionnement d'envoi de code source à PLM
+- Début de l'interface de l'éditeur de solutions
+*** Planned [0/1]
+- [ ] Améliorer l'affichage de la couleur actuellement choisie
 ** <2015-04-27>
 *** Done
 - Amélioration de la gestion des couleurs
@@ -45,7 +54,6 @@ lui-même.
 - Amélioration de l'affichage des boutons
   - Regroupement des boutons liés
   - Boutons dont la commande est actuellement active dans une autre couleur
-*** Questions
 *** Planned [0/1]
 - [ ] Editeur de solutions
 ** <2015-04-24>
@@ -53,8 +61,6 @@ lui-même.
 - Editeur de mission
   - Affichage de la mission selon les langages sélectionnés
 - Début de l'éditeur de solution
-*** Questions
-*** Planned [0/0]
 ** <2015-04-23>
 *** Done
 - Début de l'éditeur de missions
@@ -63,7 +69,6 @@ lui-même.
   - Envoie du texte entré par l'utilisateur au serveur
   - Retour du texte filtré par le serveur, en mode tous les langages
 - Début de réflexion sur la sauvegarde
-*** Questions
 *** Planned [2/4]
 - [X] Afficher la mission selon les langages sélectionnés
 - [ ] Afficher des indications et/ou un texte par défaut dans l'éditeur de
@@ -88,7 +93,6 @@ lui-même.
 - Edition de la couleur de la cellule sélectionnée dans le tableau des
   propriétés
 - Edition du nom du monde dans le tableau des propriétés
-*** Questions
 *** Planned [0/0]
 ** <2015-04-21>
 *** Done
@@ -103,7 +107,6 @@ lui-même.
   tableau des propriétés
   - Modifier le nom, la direction (liste déroulante), et la couleur
     (liste déroulante)
-*** Questions
 *** Planned [5/5]
 - [X] Corriger les erreurs "editor.selectedBuggle is null" quand aucun
   Buggle n'est sélectionné
@@ -119,7 +122,6 @@ lui-même.
   - Utilisation des getter/setters avec ngModel
   - Création d'une méthode de buggleworld qui ajoute ou retire un
     certain nombre de colonnes
-*** Questions
 *** Planned [1/1]
 - [X] Possibilité de modifier les autres propriétés du monde
 ** <2015-04-17>
@@ -143,7 +145,6 @@ lui-même.
 - Ajout d'une couleur par son nom
   - Création du service color pour les conversions noms / rgb
 - Ajout du bouton d'ajout de messages dans les cellules
-*** Questions
 *** Planned [1/1]
 - [X] Pouvoir éditer les propriétés du monde dans le tableau des propriétés
 ** <2015-04-14>
@@ -153,7 +154,6 @@ lui-même.
 - Bouton d'ajout de Buggles
 - Bouton de suppression de Buggles
 - Fenetre pour choisir une custom color (r/g/b) et coloriage des cases avec cette couleur
-*** Questions
 *** Planned [1/1]
 - [X] Ajout d'une couleur par son nom
 ** <2015-04-13>
@@ -163,7 +163,6 @@ lui-même.
 - Boutons d'ajout des murs et des baggles.
   - Création de la directive AngularJS world-edition-commands
 - Début de l'ajout des buggles.
-*** Questions
 *** Planned [2/2]
 - [X] Autres boutons d'ajout d'élements dans le monde
 - [X] Boutons de suppression de lignes et colonnes
@@ -173,7 +172,6 @@ lui-même.
 - Affichage d'un monde vide au lancement de l'éditeur webPLM
   - Création de la directive AngularJS world-edition
 - Essais de dessins et de détections d'événements sur élément <canvas>
-*** Questions
 *** Planned [1/1]
 - [X] Détecter les coordonnées du click pour sélectionner une cellule
 ** <2015-04-09>
@@ -183,8 +181,8 @@ lui-même.
 - Lecture des bonnes pratiques AngularJS utilisées pour webPLM (https://github.com/johnpapa/angular-styleguide)
 - Lecture d'un tutoriel sur l'élément HTML <canvas> utilisé pour dessiner le monde
 - Création du controleur et de la vue Editor pour débuter le code
-*** Questions
-- Comment créer un monde vide au chargement de l'éditeur
+*** Questions [1/1]
+- [X] Comment créer un monde vide au chargement de l'éditeur
 *** Planned [1/1]
 - [X] Afficher un monde vide au chargement de l'éditeur
 ** <2015-04-08>
@@ -193,11 +191,7 @@ lui-même.
 - Installation du play framework pour lancer webPLM en local
 - Etude du fonctionnement et du code de webPLM et PLM
 - Etude du fonctionnement de l'editeur actuel de PLM
-*** Questions
-*** Planned [0/0]
 ** <2015-04-07>
 *** Done
 - Visualisation du cours Code School sur AngularJS
-*** Questions
-*** Planned [0/0]
 
