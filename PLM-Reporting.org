@@ -40,19 +40,34 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-04-29>
+*** Done
+- Affichage de la couleur actuellement choisie dans un petit rond par 
+  dessus le bouton couleur
+- Interface de l'éditeur de solution
+  - Zone de saisie du code à gauche
+  - Affichage du monde initial à droite
+- Recherche d'un moyen d'envoyer le code à PLM et l'exécuter sur le monde
+  que l'on édite
+*** Planned
+- [ ] Trouver comment envoyer le code de la solution à PLM et le faire
+  exécuter sur le monde que l'on édite
 ** <2015-04-28>
 *** Done
-- Affichage de la couleur actuellement choisie pour la commande coloriage de cellules
+- Affichage de la couleur actuellement choisie pour la commande coloriage 
+  de cellules
 - Etude du fonctionnement d'envoi de code source à PLM
 - Début de l'interface de l'éditeur de solutions
-*** Planned [0/1]
-- [ ] Améliorer l'affichage de la couleur actuellement choisie
+*** Planned [1/1]
+- [X] Améliorer l'affichage de la couleur actuellement choisie
 ** <2015-04-27>
 *** Done
 - Amélioration de la gestion des couleurs
   - Affichage des couleurs prédéfinies dans un bouton type "dropdown"
-  - Un lien de la liste ouvre une nouvelle fenêtre pour entrer une valeur personnalisée
-  - Un autre lien de la liste met en mode "pipette" pour sélectionner la couleur d'une cellule
+  - Un lien de la liste ouvre une nouvelle fenêtre pour entrer une valeur 
+    personnalisée
+  - Un autre lien de la liste met en mode "pipette" pour sélectionner la 
+    couleur d'une cellule
 - Amélioration de l'affichage des boutons
   - Regroupement des boutons liés
   - Boutons dont la commande est actuellement active dans une autre couleur
