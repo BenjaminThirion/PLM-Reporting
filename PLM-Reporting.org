@@ -40,6 +40,16 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-04-30>
+*** Done
+- Création d'un exercice Editor qui sera utilisé pour exécuter le code
+  solution entré sur l'éditeur
+- Envoi des informations du monde édité à PLM
+*** Planned
+- [ ] Associer le monde édité à l'exercice Editor
+- [ ] Faire executer le code de la solution sur le monde
+- [ ] Reprendre le code du controleur exercice qui gère l'affichage du 
+  monde après avoir traité le code de l'élève dans le controleur editor
 ** <2015-04-29>
 *** Done
 - Affichage de la couleur actuellement choisie dans un petit rond par 
