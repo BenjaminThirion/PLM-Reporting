@@ -40,12 +40,16 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-04>
+*** Done
+- Chargement de l'exercice "Editor" au lancement de l'éditeur de solutions
+- Méthodes pour convertir un monde du format JSON en objet BuggleWorld
 ** <2015-04-30>
 *** Done
 - Création d'un exercice Editor qui sera utilisé pour exécuter le code
   solution entré sur l'éditeur
 - Envoi des informations du monde édité à PLM
-*** Planned
+*** Planned [0/3]
 - [ ] Associer le monde édité à l'exercice Editor
 - [ ] Faire executer le code de la solution sur le monde
 - [ ] Reprendre le code du controleur exercice qui gère l'affichage du 
@@ -59,8 +63,8 @@ lui-même.
   - Affichage du monde initial à droite
 - Recherche d'un moyen d'envoyer le code à PLM et l'exécuter sur le monde
   que l'on édite
-*** Planned
-- [ ] Trouver comment envoyer le code de la solution à PLM et le faire
+*** Planned [1/1]
+- [X] Trouver comment envoyer le code de la solution à PLM et le faire
   exécuter sur le monde que l'on édite
 ** <2015-04-28>
 *** Done
@@ -120,7 +124,6 @@ lui-même.
 - Edition de la couleur de la cellule sélectionnée dans le tableau des
   propriétés
 - Edition du nom du monde dans le tableau des propriétés
-*** Planned [0/0]
 ** <2015-04-21>
 *** Done
 - Possibilité de modifier la hauteur du monde en éditant le tableau
