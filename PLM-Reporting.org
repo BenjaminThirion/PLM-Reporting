@@ -40,6 +40,10 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-05>
+*** Done
+- Méthodes pour convertir les buggles du format JSON en objets SimpleBuggle
+- Utilisation des méthodes pour associer le nouveau monde à l'exercice
 ** <2015-05-04>
 *** Done
 - Chargement de l'exercice "Editor" au lancement de l'éditeur de solutions
