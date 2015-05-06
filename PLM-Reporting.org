@@ -40,6 +40,14 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-06>
+*** Done
+- Correction de bugs dans les méthodes de conversion
+- Ajout d'un ExecutionSpy sur le nouveau monde de l'exercice pour recevoir
+  les opérations
+- Execution du code de la solution sur le nouveau monde
+- Première version où l'on voit directement le monde solution généré,
+  sans les étapes
 ** <2015-05-05>
 *** Done
 - Méthodes pour convertir les buggles du format JSON en objets SimpleBuggle
@@ -53,9 +61,9 @@ lui-même.
 - Création d'un exercice Editor qui sera utilisé pour exécuter le code
   solution entré sur l'éditeur
 - Envoi des informations du monde édité à PLM
-*** Planned [0/3]
-- [ ] Associer le monde édité à l'exercice Editor
-- [ ] Faire executer le code de la solution sur le monde
+*** Planned [2/3]
+- [X] Associer le monde édité à l'exercice Editor
+- [X] Faire executer le code de la solution sur le monde
 - [ ] Reprendre le code du controleur exercice qui gère l'affichage du 
   monde après avoir traité le code de l'élève dans le controleur editor
 ** <2015-04-29>
