@@ -40,6 +40,22 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-07>
+*** Done
+- Affichage de la solution étape par étape avec les opérations
+- Essais d'inclusion de la directive select-programming-language
+  - Première solution en utilisant $scope.exercise = this dans
+    le controleur
+*** Planned [0/5]
+- [ ] Selection du langage pour l'éditeur de solution
+  - [ ] Trouver comment utiliser la directive select-programming-language
+        avec le controleur editor
+- [ ] Inclure la directive animation-player
+- [ ] Créer une nouvelle leçon contenant un seul exercice, celui de
+      l'éditeur, qui ne sera pas visible aux élèves
+- [ ] Refléchir à comment factoriser le code commun des controleurs pour 
+      la gestion des opérations
+- [ ] Afficher l'API sur l'éditeur de solution
 ** <2015-05-06>
 *** Done
 - Correction de bugs dans les méthodes de conversion
