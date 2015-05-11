@@ -43,9 +43,9 @@ lui-même.
 ** <2015-05-11>
 *** Done
 - Sélection du langage pour l'éditeur de solutions
-- Inclure la directive animation-player
+- Inclusion de la directive animation-player
 - Afficher l'API sur l'éditeur de solutions
-*** Planned
+*** Planned [0/2]
 - [ ] Utiliser les scopes isolés pour les directives utilisées
       sur plusieurs controleurs
 - [ ] Essayer d'utiliser les services pour factoriser le code commun
