@@ -40,13 +40,22 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-12>
+*** Done
+- Utilisation des scopes isolés pour les directives utilisées sur
+  plusieurs controleurs
+- Leçon Editor contenant l'exercice Editor
+- Début des services de gestion de l'ide et des mondes pour factoriser
+  le code
+*** Planned [0/1]
+- [ ] Revoir un problème de nom de variable dans filterMission
 ** <2015-05-11>
 *** Done
 - Sélection du langage pour l'éditeur de solutions
 - Inclusion de la directive animation-player
 - Afficher l'API sur l'éditeur de solutions
-*** Planned [0/2]
-- [ ] Utiliser les scopes isolés pour les directives utilisées
+*** Planned [1/2]
+- [X] Utiliser les scopes isolés pour les directives utilisées
       sur plusieurs controleurs
 - [ ] Essayer d'utiliser les services pour factoriser le code commun
       des controleurs exercice et editor
@@ -56,12 +65,12 @@ lui-même.
 - Essais d'inclusion de la directive select-programming-language
   - Première solution en utilisant $scope.exercise = this dans
     le controleur
-*** Planned [4/5]
+*** Planned [5/5]
 - [X] Selection du langage pour l'éditeur de solution
   - [X] Trouver comment utiliser la directive select-programming-language
         avec le controleur editor
 - [X] Inclure la directive animation-player
-- [ ] Créer une nouvelle leçon contenant un seul exercice, celui de
+- [X] Créer une nouvelle leçon contenant un seul exercice, celui de
       l'éditeur, qui ne sera pas visible aux élèves
 - [X] Refléchir à comment factoriser le code commun des controleurs pour 
       la gestion des opérations
