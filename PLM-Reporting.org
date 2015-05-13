@@ -40,6 +40,14 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-13>
+*** Done
+- Correction du problème de nom de variable dans filterMission
+- Création du service ide pour la gestion de l'éditeur de code
+- Début de création du service worlds pour la gestion des différents
+  mondes
+*** Planned
+- [ ] Terminer le service worlds
 ** <2015-05-12>
 *** Done
 - Utilisation des scopes isolés pour les directives utilisées sur
@@ -47,17 +55,17 @@ lui-même.
 - Leçon Editor contenant l'exercice Editor
 - Début des services de gestion de l'ide et des mondes pour factoriser
   le code
-*** Planned [0/1]
-- [ ] Revoir un problème de nom de variable dans filterMission
+*** Planned [1/1]
+- [X] Revoir un problème de nom de variable dans filterMission
 ** <2015-05-11>
 *** Done
 - Sélection du langage pour l'éditeur de solutions
 - Inclusion de la directive animation-player
 - Afficher l'API sur l'éditeur de solutions
-*** Planned [1/2]
+*** Planned [2/2]
 - [X] Utiliser les scopes isolés pour les directives utilisées
       sur plusieurs controleurs
-- [ ] Essayer d'utiliser les services pour factoriser le code commun
+- [X] Essayer d'utiliser les services pour factoriser le code commun
       des controleurs exercice et editor
 ** <2015-05-07>
 *** Done
@@ -132,8 +140,8 @@ lui-même.
 - Amélioration de l'affichage des boutons
   - Regroupement des boutons liés
   - Boutons dont la commande est actuellement active dans une autre couleur
-*** Planned [0/1]
-- [ ] Editeur de solutions
+*** Planned [1/1]
+- [X] Editeur de solutions
 ** <2015-04-24>
 *** Done
 - Editeur de mission
