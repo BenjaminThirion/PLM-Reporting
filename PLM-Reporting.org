@@ -40,6 +40,16 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-18>
+*** Done
+- Déplacement du code pour gérer les différents mondes de l'exercice
+  courant dans le service worlds
+- Adaptation du code pour etre utilisé comme un service
+*** Questions
+- Donner la possibilité de charger dans l'éditeur un exercice existant ?
+- Un bouton sauvegarder l'exercice devrait permettre de télécharger
+  un JAR contenant une leçon contenant l'exercice ?
+
 ** <2015-05-13>
 *** Done
 - Correction du problème de nom de variable dans filterMission
