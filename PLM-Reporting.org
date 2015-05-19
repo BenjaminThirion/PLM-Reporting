@@ -45,9 +45,9 @@ lui-même.
 - Déplacement du code pour gérer les différents mondes de l'exercice
   courant dans le service worlds
 - Adaptation du code pour etre utilisé comme un service
-*** Questions
-- Donner la possibilité de charger dans l'éditeur un exercice existant ?
-- Un bouton sauvegarder l'exercice devrait permettre de télécharger
+*** Questions [0/2]
+- [ ] Donner la possibilité de charger dans l'éditeur un exercice existant ?
+- [ ] Un bouton sauvegarder l'exercice devrait permettre de télécharger
   un JAR contenant une leçon contenant l'exercice ?
 
 ** <2015-05-13>
@@ -56,7 +56,7 @@ lui-même.
 - Création du service ide pour la gestion de l'éditeur de code
 - Début de création du service worlds pour la gestion des différents
   mondes
-*** Planned
+*** Planned [0/1]
 - [ ] Terminer le service worlds
 ** <2015-05-12>
 *** Done
