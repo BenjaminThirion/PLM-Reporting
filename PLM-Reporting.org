@@ -40,6 +40,10 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-19>
+*** Done
+- Continuation de l'adaptation du code
+- Essais d'utilisation du service dans le controleur
 ** <2015-05-18>
 *** Done
 - Déplacement du code pour gérer les différents mondes de l'exercice
