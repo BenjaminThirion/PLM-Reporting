@@ -40,6 +40,12 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-20>
+*** Done
+- Première version du service worlds pour la gestion des mondes
+*** Planned
+- [ ] Ajouter les méthodes restantes communes à editor et exercice
+      au service worlds
 ** <2015-05-19>
 *** Done
 - Continuation de l'adaptation du code
