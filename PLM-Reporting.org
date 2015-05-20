@@ -43,7 +43,7 @@ lui-même.
 ** <2015-05-20>
 *** Done
 - Première version du service worlds pour la gestion des mondes
-*** Planned
+*** Planned [0/1]
 - [ ] Ajouter les méthodes restantes communes à editor et exercice
       au service worlds
 ** <2015-05-19>
