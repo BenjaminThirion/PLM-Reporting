@@ -40,13 +40,20 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-22>
+*** Done
+- Utilisation du service worlds dans exercise
+*** Planned
+- [ ] Corriger le bug "canvas is null" au chargement de certains exercices
+- [ ] Corriger le bug "_codeEditor is undefined" au chargement de certains
+      exercices
 ** <2015-05-21>
 *** Done
 - Ajout des méthodes restantes au service worlds
 - Adaptation du code des nouvelles méthodes
 - Utilisation du service worlds dans le controleur editor
-*** Planned [0/1]
-- [ ] Utiliser le service worlds dans exercise
+*** Planned [1/1]
+- [X] Utiliser le service worlds dans exercise
 ** <2015-05-20>
 *** Done
 - Première version du service worlds pour la gestion des mondes
