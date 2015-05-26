@@ -40,12 +40,28 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-26>
+*** Done
+- Correction du bug "canvas is null" à l'aide d'une fonction attendant
+  le chargement du canvas avant d'appeler getExercice()
+- Correction du select pour choisir la direction du Buggle qui
+  traitait les nombres correspondant aux directions comme des chaines
+  et non comme des nombres.
+  - Ajout de la directive convert-to-number appliquée au select
+- Correction de l'affectation de la direction du Buggle dans la fonction
+  JsonSimpleBuggleWrite
+- Début du code pour gérer plusieurs mondes
+*** Planned [0/3]
+- [ ] Pouvoir gérer plusieurs mondes sur l'exercice
+- [ ] Pouvoir créer un exercice en chargeant les données d'un exercice
+      existant
+- [ ] Pouvoir sauvegarder un exercice sur le serveur
 ** <2015-05-22>
 *** Done
 - Utilisation du service worlds dans exercise
 *** Planned
-- [ ] Corriger le bug "canvas is null" au chargement de certains exercices
-- [ ] Corriger le bug "_codeEditor is undefined" au chargement de certains
+- [X] Corriger le bug "canvas is null" au chargement de certains exercices
+- [X] Corriger le bug "_codeEditor is undefined" au chargement de certains
       exercices
 ** <2015-05-21>
 *** Done
