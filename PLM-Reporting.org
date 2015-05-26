@@ -59,7 +59,7 @@ lui-même.
 ** <2015-05-22>
 *** Done
 - Utilisation du service worlds dans exercise
-*** Planned
+*** Planned [2/2]
 - [X] Corriger le bug "canvas is null" au chargement de certains exercices
 - [X] Corriger le bug "_codeEditor is undefined" au chargement de certains
       exercices
