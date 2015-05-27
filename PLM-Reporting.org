@@ -40,6 +40,13 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-27>
+*** Done
+- Possibilité d'avoir plusieurs mondes dans la partie monde de l'éditeur
+- Possibilité d'ajouter un monde
+- Possibilité de supprimer un monde
+*** Planned [0/1]
+- [ ] Pouvoir changer de monde sur l'éditeur de solutions
 ** <2015-05-26>
 *** Done
 - Correction du bug "canvas is null" à l'aide d'une fonction attendant
