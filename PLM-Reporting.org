@@ -40,6 +40,16 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-28>
+*** Done
+- Amélioration de l'interface
+  - Regroupement de certains boutons dans des "dropdown buttons"
+- Correction de problèmes dans l'ajout et la suppression de mondes
+- Correction de problèmes dans le renommage de mondes
+- Ajout d'un select pour sélectionner le monde dans la partie solution
+*** Planned
+- [ ] Corriger le problème qui empeche d'executer les opérations sur le
+      monde sélectionné
 ** <2015-05-27>
 *** Done
 - Possibilité d'avoir plusieurs mondes dans la partie monde de l'éditeur
