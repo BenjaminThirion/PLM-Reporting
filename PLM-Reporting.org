@@ -40,6 +40,13 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-05-29>
+*** Done
+- Confirmation avant de supprimer un monde
+- Correction du problème des opérations
+- Selection du monde dans la partie solution de l'éditeur
+- Execution du code solution sur les mondes
+- Début du code pour charger un exercice existant dans l'éditeur
 ** <2015-05-28>
 *** Done
 - Amélioration de l'interface
@@ -47,16 +54,16 @@ lui-même.
 - Correction de problèmes dans l'ajout et la suppression de mondes
 - Correction de problèmes dans le renommage de mondes
 - Ajout d'un select pour sélectionner le monde dans la partie solution
-*** Planned
-- [ ] Corriger le problème qui empeche d'executer les opérations sur le
+*** Planned [1/1]
+- [X] Corriger le problème qui empeche d'executer les opérations sur le
       monde sélectionné
 ** <2015-05-27>
 *** Done
 - Possibilité d'avoir plusieurs mondes dans la partie monde de l'éditeur
 - Possibilité d'ajouter un monde
 - Possibilité de supprimer un monde
-*** Planned [0/1]
-- [ ] Pouvoir changer de monde sur l'éditeur de solutions
+*** Planned [1/1]
+- [X] Pouvoir changer de monde sur l'éditeur de solutions
 ** <2015-05-26>
 *** Done
 - Correction du bug "canvas is null" à l'aide d'une fonction attendant
@@ -68,8 +75,8 @@ lui-même.
 - Correction de l'affectation de la direction du Buggle dans la fonction
   JsonSimpleBuggleWrite
 - Début du code pour gérer plusieurs mondes
-*** Planned [0/3]
-- [ ] Pouvoir gérer plusieurs mondes sur l'exercice
+*** Planned [1/3]
+- [X] Pouvoir gérer plusieurs mondes sur l'exercice
 - [ ] Pouvoir créer un exercice en chargeant les données d'un exercice
       existant
 - [ ] Pouvoir sauvegarder un exercice sur le serveur
