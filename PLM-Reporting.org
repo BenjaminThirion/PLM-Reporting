@@ -40,6 +40,10 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-06-02>
+*** Done
+- Chargement des codes solutions
+- Nettoyage dans le code du controleur
 ** <2015-06-01>
 *** Done
 - Demander à l'éditeur de charger un exercice en indiquant l'ID
@@ -47,8 +51,8 @@ lui-même.
 - Chargement des mondes de l'exercice demandé, sinon création
   d'un monde vide
 - Chargement de la mission de l'exercice demandé
-*** Planned [0/1]
-- [ ] Chargement des codes solutions
+*** Planned [1/1]
+- [X] Chargement des codes solutions
 ** <2015-05-29>
 *** Done
 - Confirmation avant de supprimer un monde
