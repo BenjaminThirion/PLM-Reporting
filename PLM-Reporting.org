@@ -40,6 +40,12 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-06-03>
+*** Done
+- Amélioration du code du chargement de la solution
+- Amélioration de l'extraction de la solution dans le code de la classe
+  pour les exercices sans commentaire template
+- Finalisation de la fonction charger un exercice
 ** <2015-06-02>
 *** Done
 - Chargement des codes solutions
@@ -88,9 +94,9 @@ lui-même.
 - Correction de l'affectation de la direction du Buggle dans la fonction
   JsonSimpleBuggleWrite
 - Début du code pour gérer plusieurs mondes
-*** Planned [1/3]
+*** Planned [2/3]
 - [X] Pouvoir gérer plusieurs mondes sur l'exercice
-- [ ] Pouvoir créer un exercice en chargeant les données d'un exercice
+- [X] Pouvoir créer un exercice en chargeant les données d'un exercice
       existant
 - [ ] Pouvoir sauvegarder un exercice sur le serveur
 ** <2015-05-22>
@@ -122,9 +128,9 @@ lui-même.
 - Déplacement du code pour gérer les différents mondes de l'exercice
   courant dans le service worlds
 - Adaptation du code pour etre utilisé comme un service
-*** Questions [0/2]
-- [ ] Donner la possibilité de charger dans l'éditeur un exercice existant ?
-- [ ] Un bouton sauvegarder l'exercice devrait permettre de télécharger
+*** Questions [2/2]
+- [X] Donner la possibilité de charger dans l'éditeur un exercice existant ?
+- [X] Un bouton sauvegarder l'exercice devrait permettre de télécharger
   un JAR contenant une leçon contenant l'exercice ?
 
 ** <2015-05-13>
@@ -133,8 +139,8 @@ lui-même.
 - Création du service ide pour la gestion de l'éditeur de code
 - Début de création du service worlds pour la gestion des différents
   mondes
-*** Planned [0/1]
-- [ ] Terminer le service worlds
+*** Planned [1/1]
+- [X] Terminer le service worlds
 ** <2015-05-12>
 *** Done
 - Utilisation des scopes isolés pour les directives utilisées sur
@@ -242,12 +248,12 @@ lui-même.
   - Envoie du texte entré par l'utilisateur au serveur
   - Retour du texte filtré par le serveur, en mode tous les langages
 - Début de réflexion sur la sauvegarde
-*** Planned [2/4]
+*** Planned [3/4]
 - [X] Afficher la mission selon les langages sélectionnés
 - [ ] Afficher des indications et/ou un texte par défaut dans l'éditeur de
   missions pour aider l'utilisateur
 - [X] Débuter l'éditeur de solution
-- [ ] Réfléchir sur la sauvegarde
+- [X] Réfléchir sur la sauvegarde
 ** <2015-04-22>
 *** Done
 - Correction d'un bug si on renomme buggle1 en buggle2 avant de créer
