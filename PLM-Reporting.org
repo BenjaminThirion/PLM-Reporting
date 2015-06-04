@@ -40,6 +40,11 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-06-04>
+*** Done
+- Début de la fonction sauvegarde
+- Bouton pour envoyer les données au serveur
+- Récupération des données sur le serveur
 ** <2015-06-03>
 *** Done
 - Amélioration du code du chargement de la solution
