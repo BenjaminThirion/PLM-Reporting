@@ -40,9 +40,21 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
+** <2015-006-08>
+*** Done
+- Donner un nom à l'exercice avant de le sauvegarder
+- Création d'un repertoire du nom de l'exercice sauvegardé
+- Sauvegarde des solutions dans des fichiers ayant l'extension
+  du langage de programmation
+- Changement du nom de la classe par le nom de l'exercice dans
+  les sources Java et Scala
+*** Panned [0/1]
+- [ ] Réduire la taille des données envoyées au serveur pour éviter
+      de dépasser la taille limite
+  - [ ] Supprimer les cellules vides du JSON envoyé
 ** <2015-06-05>
 *** Done
-- Création d'un repertoire du nom de l'exercice sauvegardé
+- Création d'un repertoire pour sauvegarder l'exercice
 - Sauvegarde des différents mondes en .map
 - Sauvegarde de la mission en .html
 ** <2015-06-04>
