@@ -40,7 +40,17 @@ lui-même.
   4. Cliquer sur "Editor" dans le menu
 
 * Journal
-** <2015-006-08>
+** <2015-06-09>
+*** Done
+- Réduction de la taille du monde lors de l'envoi au serveur pour
+  la sauvegarde
+  - Nouveau format JSON "léger" avec suppression des cases vides
+    et sans les propriétés quand elles valent false
+  - Adaptation des méthodes JSON vers BuggleWorld du serveur
+*** Planned [0/1]
+- [ ] Générer la classe principale de l'exercice (qui restera à
+  compléter à la main)
+** <2015-06-08>
 *** Done
 - Donner un nom à l'exercice avant de le sauvegarder
 - Création d'un repertoire du nom de l'exercice sauvegardé
@@ -48,10 +58,10 @@ lui-même.
   du langage de programmation
 - Changement du nom de la classe par le nom de l'exercice dans
   les sources Java et Scala
-*** Panned [0/1]
-- [ ] Réduire la taille des données envoyées au serveur pour éviter
+*** Panned [1/1]
+- [X] Réduire la taille des données envoyées au serveur pour éviter
       de dépasser la taille limite
-  - [ ] Supprimer les cellules vides du JSON envoyé
+  - [X] Supprimer les cellules vides du JSON envoyé
 ** <2015-06-05>
 *** Done
 - Création d'un repertoire pour sauvegarder l'exercice
